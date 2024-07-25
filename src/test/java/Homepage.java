@@ -63,7 +63,7 @@ public class Homepage {
         actions.moveToElement(clickFacebook).click().build().perform();
         Thread.sleep(2000);
         actions.moveToElement(clickbtnConnectWallet).click().build().perform();
-        Thread.sleep(2000);
+        Thread.sleep(3000);
         driver.quit();
 
 
